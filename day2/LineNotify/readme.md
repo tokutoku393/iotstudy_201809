@@ -5,15 +5,15 @@
 - コマンドプロンプト/ターミナルで Desktop > 作成したフォルダ内に移動
 
 ```
-cd Desktop
-cd {作成したフォルダ名}
+$ cd Desktop
+$ cd {作成したフォルダ名}
 ```
 
 - 下記コマンドを順に実行
 
 ```
-npm init -y
-npm i --save axios
+$ npm init -y
+$ npm i --save axios
 ```
 
 ## プログラムをかく
@@ -23,5 +23,5 @@ npm i --save axios
 
 ## 実行
 ```
-node app.js
+$ node app.js
 ```

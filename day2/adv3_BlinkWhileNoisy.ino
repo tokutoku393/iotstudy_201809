@@ -1,7 +1,6 @@
 const int pinAdc = A0;
 #define LED_PIN 13
 #define THRESHOLD 75;
-#define DELAY_TIME 100;
 
 void setup()
 {
@@ -21,10 +20,11 @@ void loop()
 
     if (sum > THRESHOLD) {
         digitalWrite(LED_PIN, HIGH);
+        delay(3000);
     } else {
         digitalWrite(LEDPIN, LOW);
     }
 
     Serial.println(sum);
-    delay(DELAY_TIME);
+    delay(100);
 }

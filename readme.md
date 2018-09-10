@@ -4,4 +4,7 @@
 
 ## 資料
 
-https://www.slideshare.net/secret/FkQqlUw8CJ0aEy
+- day1
+  - https://www.slideshare.net/secret/geuWY8Nikp8RuB
+- day2
+  - https://www.slideshare.net/secret/t30GyyfD7x8emD

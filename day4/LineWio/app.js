@@ -7,7 +7,7 @@ const BASE_URL = 'https://notify-api.line.me';
 const PATH =  '/api/notify';
 const LINE_TOKEN = `トークンを指定`; //ここにLINE Notifyのトークンを指定
 const WIO_TOKEN = `トークンを指定`; //ここにWioNodeのトークンを指定
-const MESSAGE = `不在通知があった模様です。`;
+const MESSAGE = `誰かきたっぽい`;
 const ws = new WebSocket('wss://us.wio.seeed.io/v1/node/event');
 
 const CONFIG = {
